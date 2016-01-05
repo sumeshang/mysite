@@ -13,4 +13,4 @@ RUN /opt/ve/mysite/bin/pip install -r /opt/apps/mysite/requirements.txt
 RUN (cd /opt/apps/mysite && /opt/ve/mysite/bin/python manage.py migrate)
 EXPOSE 8000
 #CMD ["/opt/ve/mysite/bin/python", "", "/usr/local/bin/run"]
-#RUN (cd /opt/apps/mysite && /opt/ve/mysite/bin/python manage.py runserver)
+RUN (cd /opt/apps/mysite && /opt/ve/mysite/bin/python manage.py runserver 0.0.0.0:8000)

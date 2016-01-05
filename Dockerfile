@@ -1,4 +1,4 @@
-FROM ubuntu:12.10
+FROM ubuntu:15.10
 MAINTAINER Sumeshkk "sumesh.kk@rapidvaluesolutions.com"
 RUN apt-get -qq update
 RUN apt-get install -y python-dev python-setuptools git-core build-essential 

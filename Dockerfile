@@ -1,6 +1,6 @@
 FROM ubuntu:15.10
 MAINTAINER Sumeshkk "sumesh.kk@rapidvaluesolutions.com"
-RUN apt-get -qq update
+RUN apt-get -y update
 RUN apt-get install -y python-dev python-setuptools git-core build-essential 
 RUN easy_install pip
 RUN pip install virtualenv

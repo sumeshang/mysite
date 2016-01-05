@@ -1,5 +1,5 @@
 FROM ubuntu:15.10
-MAINTAINER Ken Cochrane "sumesh.kk@rapidvaluesolutions.com"
+MAINTAINER Sumeshkk "sumesh.kk@rapidvaluesolutions.com"
 RUN apt-get -qq update
 RUN apt-get install -y python-dev python-setuptools git-core build-essential 
 RUN easy_install pip

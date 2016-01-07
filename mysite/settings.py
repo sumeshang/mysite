@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': '123',
         'HOST': 'mysql',   # Or an IP Address that your DB is hosted on
-        'PORT': '3355',
+        'PORT': '3306',
     }
 }
 
